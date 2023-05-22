@@ -76,7 +76,7 @@ The **alt** attribute is a mandatory attribute which specifies an alternate text
 
 `Insert Tables`
 
-The HTML tables are created using the **<table>** tag in which the **<tr>** tag is used to create table rows and **<td>** tag is used to create data cells. The elements under <td> are regular and left aligned by default
+The HTML tables are created using the <table> tag in which the <tr> tag is used to create table rows and <td> tag is used to create data cells. The elements under <td> are regular and left aligned by default
 
 ```html
 <table border = "1">
