@@ -222,3 +222,9 @@ flash(message,category)
 - **category:** An Optional parameter, which can be set to “error,” “info,” or “warning.”
 
 To extract the flash message from the session, where it is stored, and display it on the template, we use the **get_flashed_messages()** function.
+
+`SQLAlchemy`
+
+- **db.session.add**(model object) − inserts a record into mapped table
+- **db.session.delete**(model object) − deletes record from table
+- **model.query.all()** − retrieves all records from table (corresponding to SELECT query).

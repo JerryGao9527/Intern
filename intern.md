@@ -2,6 +2,30 @@ You will be working on improving and enhancing our Trade Promotions web applicat
 
 
 
+Git
+
+`Remove file from staging area`
+
+```bash
+git rm --cashed <file>
+```
+
+`Shows the commit logs`
+
+```bash
+git log --oneline
+```
+
+`Undoing Things`
+
+- **git checkout**: A checkout is an operation that moves the `HEAD` ref pointer to a specified commit.
+- **git revert**: A revert is an operation that takes a specified commit and creates a new commit which inverses the specified commit.
+- **git reset**: A reset is an operation that takes a specified commit and resets the "three trees" to match the state of the repository at that specified commit.
+
+
+
+
+
 ## 1 Seaborn
 
 ```python
