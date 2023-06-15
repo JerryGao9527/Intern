@@ -1,5 +1,76 @@
 # Enhancing Outpost's Data Science Flow
 
+### Proposed updates:
+
+1. Upload Input Files -> Choose Input Files 
+
+- Choose Files -> Upload Files & Choose from a recent run
+
+  Hard to change the displayed text. 
+
+  ```html
+  <style>
+      .button-container {
+          display: flex;
+          gap: 10px; /* Adjust the value as needed for the desired spacing */
+      }
+  </style>
+  
+  <div class="button-container">
+      <button onclick="document.getElementById('files').click()">Upload Files</button>
+      <input type="file" name="files" id="files" multiple accept=".csv" style="display:none">
+      <button type="submit">Confirm</button>
+  </div>
+  ```
+
+- Button: Upload -> Confirm
+
+- Pricing (cannibalization) on / off 
+
+- Add a description overwrite
+
+2. Change of upload files in document
+
+- Either upload or from a recent run or both
+
+3. Add jerry to config file
+
+​	`User View`
+
+![image-20230614210000987](/Users/gaojinglun/Library/Application Support/typora-user-images/image-20230614210000987.png)
+
+4. change selection radio button to download button in data files
+
+- Case with a large number of files (user has to scoll down)
+- One click instead of two
+
+5. Take auto refresh and status change out
+
+- Confusing
+- No need
+
+6. Examples from bootstrap on table
+
+7. Underline the file that is being edited now
+
+8. Shows on the left if the table has been changed
+
+9. save changes for one / multi files
+
+10. clear changes button
+
+avoid user going to the next table without saving or clearing (plz save or clear before choosing another table)
+
+
+
+- outpost/outpost/program.py
+  - 98-102: indentation for all_required_files_uploaded
+- upload from a recent run lose information above
+
+​		pass as a dictionary to the url_for
+
+
+
 - Give user choice of either uploading files or point to previous run of their own in the $\log$
 
 Q1:
